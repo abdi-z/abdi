@@ -1,9 +1,9 @@
 {
-  "name": "hauptrolle.me",
+  "name": "abdi-z",
   "version": "1.0.0",
   "description": "Personal Website",
   "main": "index.js",
-  "author": "Achim Rolle <achimrolle@googlemail.com>",
+  "author": "Abdul Rehman Aziz <yestisabdi@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
