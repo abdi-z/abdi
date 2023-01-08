@@ -8,10 +8,10 @@ import {
 } from "@chakra-ui/react";
 import NextImage from "next/image";
 import NextLink from "next/link";
-import { SiGithub, SiTwitter } from "react-icons/si";
+import { SiGithub, SiTwitter, SiLinkedin, SiMaildotru, SiAdobeacrobatreader } from "react-icons/si";
 
 import avatarUrl from "../../../public/avatar.png";
-import { GITHUB_PROFILE, TWITTER_PROFILE } from "../../constants";
+import { GITHUB_PROFILE, LINKEDIN_PROFILE } from "../../constants";
 
 const AvatarImage = chakra(NextImage, {
   shouldForwardProp: (prop) =>
@@ -40,16 +40,41 @@ export const Hero = () => {
         width={64}
         placeholder="blur"
       />
-
       <Heading size="lg" as="h1">
-        Hi, I’m Achim
+        A Software Engineer, studying Computer Science
       </Heading>
-
       <Text lineHeight={1.75} as="h2">
-        A self taught <strong>frontend developer & web designer</strong> from
-        Hessen/Germany. I love building products that are{" "}
-        <strong>user friendly</strong> and <strong>performant</strong>. If you
-        want to know more about me, feel free to check out my social media.
+        Hey, my name is Abdul Rehman (/abdi/) I am in my fourth year{" "}
+        <s>studying</s> surviving at the Comsats University, Islamabad in
+        Pakistan. I have over 7 months of total work experience, with major
+        contributions in enterprise and startup teams.
+      </Text>
+      <Text lineHeight={1.75} as="h2">
+        For Fall 2022, I'm currently working in the domain of IB-AR (Image
+        Based-Artistic Rendering) to implement a custom Neural Style Transfer as
+        part of my Research & Development project at my university.
+      </Text>
+      <Text textStyle="sectionHeading">Experience</Text>
+      <Text lineHeight={1.75} as="h2">
+        I've had the pleasure to work at{" "}
+        <strong>
+          <a href="https://www.techlogix.com/" target="_none">
+            Techlogix
+          </a>
+        </strong>
+        , where I primarily worked on the backend services of the product Campus
+        On Cloud (CoC) of their subsidiary, Almusnet. Moreover, I got to work at{" "}
+        <strong>
+          <a href="https://www.nexusberry.com/" target="_none">
+            NexusBerry
+          </a>
+        </strong>
+        , where I got to contribute to diverse client projects including ERPs,
+        CRMs.
+      </Text>
+      <Text lineHeight={1.75} as="h2">
+        Whether if it's a hackathon, party or a job offer, I'm always looking
+        for new opportunities. Want to connect? Reach out below!
       </Text>
 
       <HStack spacing={4}>
@@ -58,9 +83,19 @@ export const Hero = () => {
             GitHub
           </Button>
         </NextLink>
-        <NextLink href={TWITTER_PROFILE} passHref={true}>
-          <Button size="sm" as="a" leftIcon={<SiTwitter />}>
-            Twitter
+        <NextLink href={LINKEDIN_PROFILE} passHref={true}>
+          <Button size="sm" as="a" leftIcon={<SiLinkedin />}>
+            LinkedIn
+          </Button>
+        </NextLink>
+        <NextLink href={LINKEDIN_PROFILE} passHref={true}>
+          <Button size="sm" as="a" leftIcon={<SiMaildotru />}>
+            Email
+          </Button>
+        </NextLink>
+        <NextLink href={LINKEDIN_PROFILE} passHref={true}>
+          <Button size="sm" as="a" leftIcon={<SiAdobeacrobatreader />}>
+            Resume
           </Button>
         </NextLink>
       </HStack>

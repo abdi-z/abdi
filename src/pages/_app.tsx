@@ -9,8 +9,8 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <ChakraProvider theme={theme}>
       <NextSeo
-        title="Achim Rolle - Frontend Developer & web designer"
-        description="A self taught frontend developer & web designer from Hessen/Germany"
+        title="Abdul Rehman Aziz - Software Engineer"
+        description="A computer science student, software engineer and a ML-enthusiast."
       />
 
       <PageContainer>
