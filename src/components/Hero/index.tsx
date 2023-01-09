@@ -8,7 +8,13 @@ import {
 } from "@chakra-ui/react";
 import NextImage from "next/image";
 import NextLink from "next/link";
-import { SiGithub, SiTwitter, SiLinkedin, SiMaildotru, SiAdobeacrobatreader } from "react-icons/si";
+import {
+  SiGithub,
+  SiTwitter,
+  SiLinkedin,
+  SiMaildotru,
+  SiAdobeacrobatreader,
+} from "react-icons/si";
 
 import avatarUrl from "../../../public/avatar.png";
 import { GITHUB_PROFILE, LINKEDIN_PROFILE } from "../../constants";
@@ -79,23 +85,31 @@ export const Hero = () => {
 
       <HStack spacing={4}>
         <NextLink href={GITHUB_PROFILE} passHref={true}>
-          <Button size="sm" as="a" leftIcon={<SiGithub />}>
-            GitHub
-          </Button>
+          <a target="_blank">
+            <Button size="sm" as="a" leftIcon={<SiGithub />}>
+              GitHub
+            </Button>
+          </a>
         </NextLink>
         <NextLink href={LINKEDIN_PROFILE} passHref={true}>
-          <Button size="sm" as="a" leftIcon={<SiLinkedin />}>
-            LinkedIn
-          </Button>
+        <a target="_blank">
+            <Button size="sm" as="a" leftIcon={<SiLinkedin />}>
+              LinkedIn
+            </Button>
+          </a>
         </NextLink>
         <NextLink href={LINKEDIN_PROFILE} passHref={true}>
           <Button size="sm" as="a" leftIcon={<SiMaildotru />}>
-            Email
+            <a href="mailto:yestisabdi@gmail.com?subject = A cool opportunity&body = Yo, abdi">
+              Email
+            </a>
           </Button>
         </NextLink>
         <NextLink href={LINKEDIN_PROFILE} passHref={true}>
           <Button size="sm" as="a" leftIcon={<SiAdobeacrobatreader />}>
-            Resume
+            <a href="/AbdulRehmanAziz.pdf" target="_none">
+              Resume
+            </a>
           </Button>
         </NextLink>
       </HStack>
