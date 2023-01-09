@@ -58,7 +58,15 @@ export const Hero = () => {
       <Text lineHeight={1.75} as="h2">
         For Fall 2022, I'm currently working in the domain of IB-AR (Image
         Based-Artistic Rendering) to implement a custom Neural Style Transfer as
-        part of my Research & Development project at my university.
+        part of my Research & Development project at my university under{" "}
+        <a href="https://lahore.comsats.edu.pk/Employees/1164" target="_none">
+          Dr. Zeeshan Gillani{" "}
+        </a>{" "}
+        and{" "}
+        <a href="https://lahore.comsats.edu.pk/Employees/941" target="_none">
+          Dr. Aksam Iftikhar
+        </a>
+        's supervision.
       </Text>
       <Text textStyle="sectionHeading">Experience</Text>
       <Text lineHeight={1.75} as="h2">
