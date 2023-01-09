@@ -85,18 +85,14 @@ export const Hero = () => {
 
       <HStack spacing={4}>
         <NextLink href={GITHUB_PROFILE} passHref={true}>
-          <a target="_blank">
-            <Button size="sm" as="a" leftIcon={<SiGithub />}>
-              GitHub
-            </Button>
-          </a>
+          <Button size="sm" as="a" leftIcon={<SiGithub />}>
+            GitHub
+          </Button>
         </NextLink>
         <NextLink href={LINKEDIN_PROFILE} passHref={true}>
-        <a target="_blank">
-            <Button size="sm" as="a" leftIcon={<SiLinkedin />}>
-              LinkedIn
-            </Button>
-          </a>
+          <Button size="sm" as="a" leftIcon={<SiLinkedin />}>
+            LinkedIn
+          </Button>
         </NextLink>
         <NextLink href={LINKEDIN_PROFILE} passHref={true}>
           <Button size="sm" as="a" leftIcon={<SiMaildotru />}>
@@ -105,11 +101,9 @@ export const Hero = () => {
             </a>
           </Button>
         </NextLink>
-        <NextLink href={LINKEDIN_PROFILE} passHref={true}>
+        <NextLink href={"/AbdulRehmanAziz.pdf"} passHref={true}>
           <Button size="sm" as="a" leftIcon={<SiAdobeacrobatreader />}>
-            <a href="/AbdulRehmanAziz.pdf" target="_none">
-              Resume
-            </a>
+            Resume
           </Button>
         </NextLink>
       </HStack>
