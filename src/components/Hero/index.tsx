@@ -109,7 +109,7 @@ export const Hero = () => {
             </a>
           </Button>
         </NextLink>
-        <NextLink href={"/AbdulRehmanAziz.pdf"} passHref={true}>
+        <NextLink href={"/AbdulRehmanAziz1.pdf"} passHref={true}>
           <Button size="sm" as="a" leftIcon={<SiAdobeacrobatreader />}>
             Resume
           </Button>
