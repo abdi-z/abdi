@@ -11,7 +11,6 @@ const HomePage: NextPage = () => {
       <VStack spacing={16} alignItems="flex-start">
         <Hero />
         <VStack spacing={8} w="full" alignItems="stretch">
-          
           {/* <Text textStyle="sectionHeading">Currently</Text>
 
           <List spacing={6}>
