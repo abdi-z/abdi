@@ -47,7 +47,7 @@ export const Hero = () => {
         placeholder="blur"
       />
       <Heading size="lg" as="h1">
-        A Software Engineer, studying Computer Science
+        A Senior Software Engineer, with fascination for web dev and machine learning.
       </Heading>
       <Text textStyle="sectionHeading">Background</Text>
       <Text lineHeight={1.75} as="h2">
@@ -58,7 +58,7 @@ export const Hero = () => {
 
 
       <Text lineHeight={1.75} as="h2">
-        Soon after my graduation, I began my professional journey at Systems, Ltd in September 2019. During my time there, which spanned a year, I had the opportunity to grow and learn extensively about .NET Core and its ecosystem. Systems, Ltd was a service-based company, and I primarily focused on developing robust banking applications.
+        Soon after my graduation, I began my professional journey at Systems, Ltd in September 2019. During my time there, which spanned a year, I had the opportunity to grow and learn extensively about .NET Core and its ecosystem. Systems, Ltd is a service-based company, and I primarily focused on developing robust banking applications.
       </Text>
       
       <Text lineHeight={1.75} as="h2">
@@ -88,18 +88,18 @@ export const Hero = () => {
             GitHub
           </Button>
         </NextLink>
-        <NextLink href={LINKEDIN_PROFILE} passHref={true}>
+        {/* <NextLink href={LINKEDIN_PROFILE} passHref={true}>
           <Button size="sm" as="a" leftIcon={<SiLinkedin />}>
             LinkedIn
           </Button>
-        </NextLink>
-        <NextLink href={LINKEDIN_PROFILE} passHref={true}>
+        </NextLink> */}
+        {/* <NextLink href={""} passHref={true}>
           <Button size="sm" as="a" leftIcon={<SiMaildotru />}>
             <a href="mailto:yestisabdi@gmail.com?subject = A cool opportunity&body = Yo, abdi">
               Email
             </a>
           </Button>
-        </NextLink>
+        </NextLink> */}
         <NextLink href={"/AbdulRehmanAzizSP23.pdf"} passHref={true}>
           <Button size="sm" as="a" leftIcon={<SiAdobeacrobatreader />}>
             Resume
