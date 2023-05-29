@@ -10,7 +10,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     <ChakraProvider theme={theme}>
       <NextSeo
         title="Abdul Rehman Aziz - Software Engineer"
-        description="A computer science student, software engineer and a ML-enthusiast."
+        description="A comp sci fanatic, software engineer and a ML-enthusiast."
       />
 
       <PageContainer>

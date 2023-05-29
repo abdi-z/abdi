@@ -49,43 +49,34 @@ export const Hero = () => {
       <Heading size="lg" as="h1">
         A Software Engineer, studying Computer Science
       </Heading>
+      <Text textStyle="sectionHeading">Background</Text>
       <Text lineHeight={1.75} as="h2">
-        Hey, my name is Abdul Rehman (/abdi/) I am in my fourth year{" "}
-        <s>studying</s> surviving at the Comsats University, Islamabad in
-        Pakistan. I have over 7 months of total work experience, with major
-        contributions in enterprise and startup teams.
+        Hey, my name is Abdul Rehman (/abdi/) I am a cs{" "}
+        <s>graduate</s> survivor of the Comsats University, Islamabad in
+        Pakistan. 
       </Text>
+
+
       <Text lineHeight={1.75} as="h2">
-        For Fall 2022, I'm currently working in the domain of IB-AR (Image
-        Based-Artistic Rendering) to implement a custom Neural Style Transfer as
-        part of my Research & Development project at my university under{" "}
-        <a href="https://lahore.comsats.edu.pk/Employees/1164" target="_none">
-          Dr. Zeeshan Gillani{" "}
-        </a>{" "}
-        and{" "}
-        <a href="https://lahore.comsats.edu.pk/Employees/941" target="_none">
-          Dr. Aksam Iftikhar
-        </a>
-        's supervision.
+        Soon after my graduation, I began my professional journey at Systems, Ltd in September 2019. During my time there, which spanned a year, I had the opportunity to grow and learn extensively about .NET Core and its ecosystem. Systems, Ltd was a service-based company, and I primarily focused on developing robust banking applications.
       </Text>
-      <Text textStyle="sectionHeading">Experience</Text>
+      
       <Text lineHeight={1.75} as="h2">
-        I've had the pleasure to work at{" "}
-        <strong>
-          <a href="https://www.techlogix.com/" target="_none">
-            Techlogix
-          </a>
-        </strong>
-        , where I primarily worked on the backend services of the product Campus
-        On Cloud (CoC) of their subsidiary, Almusnet. Moreover, I got to work at{" "}
-        <strong>
-          <a href="https://www.nexusberry.com/" target="_none">
-            NexusBerry
-          </a>
-        </strong>
-        , where I got to contribute to diverse client projects including ERPs,
-        CRMs.
+      In August 2020, I joined Techlogix, where I worked on an exciting project called Campus On Cloud. This platform was designed to efficiently manage individuals within educational institutions. As part of the development team, I contributed to building and enhancing the student management system, helping institutions streamline their operations and improve overall efficiency. 
       </Text>
+      
+      <Text lineHeight={1.75} as="h2">
+      Currently, I am employed as a Senior Software Engineer at Devsinc, starting from November 2021 until the present. At Devsinc, I have been fortunate to work on diverse client projects, each presenting unique challenges and opportunities. One notable project involves my role as a senior React and .NET engineer, where I am responsible for managing migrations, overseeing low-level code management, and designing high-level cloud architecture. This role has allowed me to demonstrate my leadership abilities and showcase my expertise in both front-end and back-end development.
+      </Text>
+      <Text textStyle="sectionHeading">Background</Text>
+      <Text lineHeight={1.75} as="h2">
+      In terms of my technical skills, I possess a wide range of expertise. On the backend, I am proficient in .NET Framework, .NET Core, NodeJS, Express, as well as various cloud platforms such as AWS, Azure, and GCP. Additionally, I have experience with tools and technologies like Entity Framework, Apache Kafka, and RabbitMQ. On the frontend side, I have a strong command over React, Redux, Angular, and UI libraries such as Material and Chakra UI. I am also well-versed in Webpack, Babel, Gatsby, NPM, React Router, and Jest for efficient development and testing. Moreover, I have practical knowledge of APIs (REST, GraphQL), AWS and Azure services, Agile methodologies like Scrum and Kanban, test-driven development (TDD), continuous integration and deployment (CI/CD), project management tools like JIRA, and containerization using Docker and Kubernetes. Git has been my go-to version control system throughout my career.
+      </Text>
+      <Text textStyle="sectionHeading">Final Year Project</Text>
+      <Text lineHeight={1.75} as="h2">
+      During my bachelor's program, I undertook a fascinating thesis project focused on Neural Style Transfer (NST) techniques. My team and I proposed an alternative approach to implementing a custom stylization extractor for NST, demonstrating our innovative thinking and problem-solving abilities.
+      </Text>
+
       <Text lineHeight={1.75} as="h2">
         Whether if it's a hackathon, party or a job offer, I'm always looking
         for new opportunities. Want to connect? Reach out below!
