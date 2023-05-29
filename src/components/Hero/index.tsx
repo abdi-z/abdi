@@ -68,7 +68,7 @@ export const Hero = () => {
       <Text lineHeight={1.75} as="h2">
       Currently, I am employed as a Senior Software Engineer at Devsinc, starting from November 2021 until the present. At Devsinc, I have been fortunate to work on diverse client projects, each presenting unique challenges and opportunities. One notable project involves my role as a senior React and .NET engineer, where I am responsible for managing migrations, overseeing low-level code management, and designing high-level cloud architecture. This role has allowed me to demonstrate my leadership abilities and showcase my expertise in both front-end and back-end development.
       </Text>
-      <Text textStyle="sectionHeading">Background</Text>
+      <Text textStyle="sectionHeading">Expertise</Text>
       <Text lineHeight={1.75} as="h2">
       In terms of my technical skills, I possess a wide range of expertise. On the backend, I am proficient in .NET Framework, .NET Core, NodeJS, Express, as well as various cloud platforms such as AWS, Azure, and GCP. Additionally, I have experience with tools and technologies like Entity Framework, Apache Kafka, and RabbitMQ. On the frontend side, I have a strong command over React, Redux, Angular, and UI libraries such as Material and Chakra UI. I am also well-versed in Webpack, Babel, Gatsby, NPM, React Router, and Jest for efficient development and testing. Moreover, I have practical knowledge of APIs (REST, GraphQL), AWS and Azure services, Agile methodologies like Scrum and Kanban, test-driven development (TDD), continuous integration and deployment (CI/CD), project management tools like JIRA, and containerization using Docker and Kubernetes. Git has been my go-to version control system throughout my career.
       </Text>
