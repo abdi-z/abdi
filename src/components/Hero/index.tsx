@@ -58,7 +58,7 @@ export const Hero = () => {
 
 
       <Text lineHeight={1.75} as="h2">
-        Soon after my graduation, I began my professional journey at Systems, Ltd in September 2019. During my time there, which spanned a year, I had the opportunity to grow and learn extensively about .NET Core and its ecosystem. Systems, Ltd is a service-based company, and I primarily focused on developing robust banking applications.
+        Soon after my graduation , I began my professional journey at Systems, Ltd in September 2019. During my time there, which spanned a year, I had the opportunity to grow and learn extensively about .NET Core and its ecosystem. Systems, Ltd is a service-based company, and I primarily focused on developing robust banking applications.
       </Text>
       
       <Text lineHeight={1.75} as="h2">
