@@ -47,34 +47,44 @@ export const Hero = () => {
         placeholder="blur"
       />
       <Heading size="lg" as="h1">
-        A Senior Software Engineer, with fascination for web dev and machine learning.
+        A Software Engineer, with fascination for web dev and computer vision.
       </Heading>
       <Text textStyle="sectionHeading">Background</Text>
       <Text lineHeight={1.75} as="h2">
         Hey, my name is Abdul Rehman (/abdi/) I am a cs{" "}
-        <s>graduate</s> survivor of the Comsats University, Islamabad in
+        <s>graduate</s> survivor of Comsats University, Islamabad in
         Pakistan. 
       </Text>
 
+      <Text lineHeight={1.75} as="h2">
+        Since, the start of 2023, I have been working at {" "}
+        <strong>
+          <a href="https://devsinc.com/" target="_none">
+            Devsinc
+          </a>
+        </strong>
+        , as an Associate Software Engineer. Since my time here, I have contributed to the development and scaling of two projects including an e-learning platform as well as a data exchange platform.
+        </Text>
 
       <Text lineHeight={1.75} as="h2">
-        Soon after my graduation, I began my professional journey at Systems, Ltd in September 2019. During my time there, which spanned a year, I had the opportunity to grow and learn extensively about .NET Core and its ecosystem. Systems, Ltd is a service-based company, and I primarily focused on developing robust banking applications.
-      </Text>
-      
-      <Text lineHeight={1.75} as="h2">
-      In August 2020, I joined Techlogix, where I worked on an exciting project called Campus On Cloud. This platform was designed to efficiently manage individuals within educational institutions. As part of the development team, I contributed to building and enhancing the student management system, helping institutions streamline their operations and improve overall efficiency. 
-      </Text>
-      
-      <Text lineHeight={1.75} as="h2">
-      Currently, I am employed as a Senior Software Engineer at Devsinc, starting from November 2021 until the present. At Devsinc, I have been fortunate to work on diverse client projects, each presenting unique challenges and opportunities. One notable project involves my role as a senior React and .NET engineer, where I am responsible for managing migrations, overseeing low-level code management, and designing high-level cloud architecture. This role has allowed me to demonstrate my leadership abilities and showcase my expertise in both front-end and back-end development.
-      </Text>
-      <Text textStyle="sectionHeading">Expertise</Text>
-      <Text lineHeight={1.75} as="h2">
-      In terms of my technical skills, I possess a wide range of expertise. On the backend, I am proficient in .NET Framework, .NET Core, NodeJS, Express, as well as various cloud platforms such as AWS, Azure, and GCP. Additionally, I have experience with tools and technologies like Entity Framework, Apache Kafka, and RabbitMQ. On the frontend side, I have a strong command over React, Redux, Angular, and UI libraries such as Material and Chakra UI. I am also well-versed in Webpack, Babel, Gatsby, NPM, React Router, and Jest for efficient development and testing. Moreover, I have practical knowledge of APIs (REST, GraphQL), AWS and Azure services, Agile methodologies like Scrum and Kanban, test-driven development (TDD), continuous integration and deployment (CI/CD), project management tools like JIRA, and containerization using Docker and Kubernetes. Git has been my go-to version control system throughout my career.
-      </Text>
+        In the summer of 2022, I got the opportunity to intern at {" "}
+        <strong>
+          <a href="https://www.techlogix.com/" target="_none">
+            Techlogix
+          </a>
+        </strong>
+        , where I primarily worked on the backend services of the product Campus
+        On Cloud (CoC) of their subsidiary, Almusnet.
+        </Text>
+
       <Text textStyle="sectionHeading">Final Year Project</Text>
       <Text lineHeight={1.75} as="h2">
-      During my bachelor's program, I undertook a fascinating thesis project focused on Neural Style Transfer (NST) techniques. My team and I proposed an alternative approach to implementing a custom stylization extractor for NST, demonstrating our innovative thinking and problem-solving abilities.
+      During my bachelor's program, I undertook a fascinating thesis project focused on Neural Style Transfer (NST) technique. My team and I proposed an alternative implementation for style extraction for NST algorithm. Our alternative implementation of NST proved to produce more "painting" like output images. 
+      <strong>
+      <a href="https://gitfront.io/r/abdi/DA3f9YQ6Qtcf/IB-AR-Neural-Style-Transfers/" target="_none">
+        Read More.
+      </a>
+      </strong>
       </Text>
 
       <Text lineHeight={1.75} as="h2">
