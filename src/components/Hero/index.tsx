@@ -63,20 +63,31 @@ export const Hero = () => {
             Devsinc
           </a>
         </strong>
-        , as an Associate Software Engineer. Since my time here, I have contributed to the development and scaling of two projects including an e-learning platform as well as a data exchange platform.
+        , as a Software Engineer, where I contributed to the development and scaling of two major projects—an e-learning platform and a data exchange system. My role involved migrating applications from MVC to React, implementing RESTful APIs, and designing a custom subscription model that boosted platform revenue by 27%.
         </Text>
 
       <Text lineHeight={1.75} as="h2">
-        In the summer of 2022, I got the opportunity to intern at {" "}
+        Before Devsinc, in the summer of 2022, I got the opportunity to intern at {" "}
         <strong>
           <a href="https://www.techlogix.com/" target="_none">
             Techlogix
           </a>
         </strong>
         , where I primarily worked on the backend services of the product Campus
-        On Cloud (CoC) of their subsidiary, Almusnet.
+        On Cloud (CoC) of their subsidiary Almusnet, which is a student information system used by universities. I collaborated with a team to improve approval workflows, enhance online payment modules, and fix system defects.
         </Text>
 
+        <Text lineHeight={1.75} as="h2">
+        In my most recent role at  {" "}
+        <strong>
+          <a href="https://contour-software.com/" target="_none">
+            Contour Software (DIS)
+          </a>
+        </strong>
+        , I was deeply involved in migrating legacy VB6 applications to .NET Core. This included refactoring tightly coupled VB6 business logic into C# REST APIs, replacing ActiveX UI components with React, and optimizing database queries and memory management to enhance application performance.
+        </Text>
+
+      
       <Text textStyle="sectionHeading">Final Year Project</Text>
       <Text lineHeight={1.75} as="h2">
       During my bachelor's program, I undertook a fascinating thesis project focused on Neural Style Transfer (NST) technique. My team and I proposed an alternative implementation for style extraction for NST algorithm. Our alternative implementation of NST proved to produce more "painting" like output images. 
